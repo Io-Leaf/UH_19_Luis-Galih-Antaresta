@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("1. Bakso 10000"+" 2. Mie Ayam 8000"+" 3. Rawon 12000"+" 4. Nasi Pecel 7000"+" 5. Kupang 13000")
+        var a=prompt("masukkan uang anda")
+        var b=prompt("Silahkan mau pesan apa")
+        var bakso=10000
+        var mieAyam=8000
+        var rawon=12000
+        var nasiPecel=7000
+        var kupang=13000
+        var total
+        if (b=="Bakso") {
+            total=total+bakso
+            if (confirm('Apakah masih ingin beli lagi')) {
+                alert("Harga Makanan "+bakso+b)
+                b
+            } else {
+                alert("total harga makanan"+total)
+            }
+        } else if(b=="Mie Ayam"){
+            total+mieAyam
+            if (confirm('Apakah masih ingin beli lagi')) {
+                alert("Harga Makanan "+mieAyam+b)
+                b
+            } else {
+                alert("makanan dan harga makanan"+total)
+            }
+        } else if(b=="Rawon"){
+            total+rawon
+            if (confirm('Apakah masih ingin beli lagi')) {
+                alert("Harga Makanan "+rawon+b)
+                b
+            } else {
+                alert("makanan dan harga makanan"+b+total)
+            }
+        } else if(b=="Nasi Pecel"){
+            total+nasiPecel
+            if (confirm('Apakah masih ingin beli lagi')) {
+                alert("Harga Makanan "+nasiPecel+b)
+                b
+            } else {
+                alert("makanan dan harga makanan"+total)
+            }
+        } else if(b=="Kupang"){
+            total+kupang
+            if (confirm('Apakah masih ingin beli lagi')) {
+                alert("Harga Makanan "+kupang+" ")
+                b
+            } else {
+                alert("makanan dan harga makanan"+total)
+            }
+        } else {
+        alert("Terimakasih")
+        }
+
+
+
+
+    </script>
+</body>
+</html>
